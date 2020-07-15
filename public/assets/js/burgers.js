@@ -3,7 +3,7 @@ $(function() {
     $(".change-devoured").on("click", function(event) {
       let id = $(this).data("id");
       let devourState = {
-        devoured: true
+        devoured: 1
       }
     
   
@@ -37,8 +37,6 @@ $(function() {
           location.reload();
         }
       );
-    });
-  
-  
+    });  
   });
   
